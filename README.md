@@ -1,11 +1,16 @@
-Nome do jogo: Battle Zone
-Integrantes do grupo: Julia Wauters, Marcos Soares Maydana e Lucas Alves Costa Acosta
-Tecnologias escolhidas:
+# Battle Zone
 
-Linguagem: Python
+**Integrantes do grupo:**  
+- Julia Wauters  
+- Marcos Soares Maydana  
+- Lucas Alves Costa Acosta  
 
-Biblioteca: Pygame
+## Tecnologias Utilizadas
 
-Controle de versão: Git / GitHub
+- **Linguagem:** Python  
+- **Biblioteca:** Pygame  
+- **Controle de versão:** Git / GitHub  
 
-Plataforma alvo: PC (Windows/Linux)
+## Plataforma Alvo
+
+- PC (Windows / Linux)
