@@ -1,6 +1,17 @@
 import pygame
+import os
+import sys
+
+def asset_path(relative_path):
+    try:
+        base_path = sys._MEIPASS
+    except:
+        base_path = os.path.abspath(".")
+
+    return os.path.join(base_path, relative_path)
+
 pygame.mixer.init()
-player_hurt_sound = pygame.mixer.Sound("assets/hurt.mp3")
+player_hurt_sound = pygame.mixer.Sound(asset_path("assets/hurt.mp3"))
 player_hurt_sound.set_volume(0.5)
 
 class Player(pygame.Rect):
